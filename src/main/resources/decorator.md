@@ -4,3 +4,6 @@ Decorator pattern allows a user to add new functionality to an existing object w
 comes under structural pattern as this pattern acts as a wrapper to existing class.
 
 ![](static/UML Decorator.png)
+
+# State Pattern
+![](static/StatePattern.png)
