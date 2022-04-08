@@ -1,0 +1,19 @@
+package be.avidoo.patterns.designpatterns.decorator;
+
+/**
+ * Concrete Decorator
+ */
+public class DressingDecorator extends SandwichDecorator {
+
+    public DressingDecorator(Sandwich customSandwich) {
+        super(customSandwich);
+    }
+
+    public String make() {
+        return customSandwich.make() + addDressing();
+    }
+
+    private String addDressing() {
+        return " + mustard";
+    }
+}
