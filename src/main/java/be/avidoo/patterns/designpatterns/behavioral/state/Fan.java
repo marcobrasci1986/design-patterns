@@ -1,12 +1,11 @@
 package be.avidoo.patterns.designpatterns.behavioral.state;
 
 public class Fan {
-    State fanOffState;
-    State fanLowState;
-    State fanMedState;
-    State fanHighState;
-
-    State state;
+    private final State fanOffState;
+    private final State fanLowState;
+    private final State fanMedState;
+    private final State fanHighState;
+    private State state;
 
     public Fan() {
         this.fanOffState = new FanOffState(this);

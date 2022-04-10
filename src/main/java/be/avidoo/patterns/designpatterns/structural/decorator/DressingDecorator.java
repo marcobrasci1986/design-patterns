@@ -1,4 +1,4 @@
-package be.avidoo.patterns.designpatterns.decorator;
+package be.avidoo.patterns.designpatterns.structural.decorator;
 
 /**
  * Concrete Decorator
